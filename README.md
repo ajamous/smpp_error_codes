@@ -1,4 +1,4 @@
-# SMPP Protocol Error Code Definitions
+# SMPP Protocol Error Code Definitions 📄
 
 The SMPP (Short Message Peer-to-Peer) protocol is a widely-used industry standard for sending and receiving SMS traffic in the telecom industry. However, accessing the definitions for the various error codes used in the protocol can be inconvenient, as they are currently hosted in a PDF file on smpp.org.
 
