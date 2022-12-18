@@ -26,6 +26,36 @@ curl https://URL:8083/errorcodes
 
 ```
 
+**Building the Binary**
+
+To build the smpp_errors binary from the source code, you will need to have Go installed on your system.
+
+Once you have Go set up, you can clone the repository and navigate to the root directory of the project:
+
+```shell
+$ git clone https://github.com/<username>/smpp-errors-api.git
+$ cd smpp-errors-api
+```
+
+Next, build the binary by running the following command:
+
+```shell
+
+$ go build -o smpp_errors_api smpp_errors.go
+
+```
+
+This will create a binary file called smpp_errors_api in the root directory of the project. You can then run the binary by typing:
+
+```shell
+
+./smpp_errors_api
+
+```
+
+This will start the API service, which you can then access by sending requests to the specified endpoint.
+
+
 **Contributing**
 
 We welcome contributions to the API service, whether in the form of code, documentation, or suggestions for improvement. If you are interested in contributing, please feel free to open a pull request or issue on the GitHub repository.
